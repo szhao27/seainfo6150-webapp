@@ -1,15 +1,16 @@
-import React from 'react';
+import React from 'react'
+import SlugButton from "./SlugButton"
+import formatcss from "./ArticleListItem.module.css"
 
 const ArticleListItem = ({content}) => {
     return (
         <html>
         <div>
-            <h1>{content.title}></h1>
-            <p>{content.shortText}</p>
-            <time dateTime={content.pubDate}>{content.pubDate}</time>
-            <button onClick={
-                ()=>alert(`${content.slug}`)
-            }>show article slug</button>
+            <h1 className={formatcss.title}>{content.title}</h1>
+            <p className={formatcss.shorttext}>{content.shortText}</p>
+            <time className={formatcss.pubDate} dateTime={content.pubDate}>{content.pubDate}</time>
+            <SlugButton slug={content.slug} buttonText={content.author}></SlugButton>
+            <div className={formatcss.clear}></div>
         </div>
         </html>
     );

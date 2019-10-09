@@ -1,0 +1,29 @@
+.darkerpart{
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+
+    padding-right: 23px;
+    padding-bottom: 23px;
+    padding-left: 23px;
+    padding-top: 23px;
+
+    background-color: lightgray;
+    outline-style: dashed;
+    outline-color: dimgray;
+    outline-width: 3px;
+}
+
+.lighterpart{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    background-color: white;
+    outline-width: 3px;
+    outline-color: darkred;
+    outline-style: solid;
+}
