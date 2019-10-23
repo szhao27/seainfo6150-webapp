@@ -9,10 +9,13 @@
     padding-left: 23px;
     padding-top: 23px;
 
-    background-color: lightgray;
-    outline-style: dashed;
-    outline-color: dimgray;
-    outline-width: 3px;
+    border:3px dashed;
+    border-color: rgb(85, 85, 85);
+    border-radius: 45px;
+    background-color: rgb(163, 163, 163);
+    /*outline-style: dashed;*/
+    /*outline-color: dimgray;*/
+    /*outline-width: 3px;*/
 }
 
 .lighterpart{
@@ -22,8 +25,13 @@
     margin-left: 20px;
     margin-bottom: 20px;
 
-    background-color: white;
-    outline-width: 3px;
-    outline-color: darkred;
-    outline-style: solid;
+    border:3px solid;
+    border-color: darkred;
+    border-radius: 45px;
+
+    box-shadow: 0px 10px 30px 5px rgb(65, 65, 65);
+
+    background-color:whitesmoke;
+    background-image: linear-gradient(to right, rgb(199, 109, 109) 1%, white 20%);
+
 }

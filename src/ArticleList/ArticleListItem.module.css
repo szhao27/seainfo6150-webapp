@@ -1,3 +1,11 @@
+.image{
+    margin-top: 20px;
+    margin-right: 18px;
+    margin-bottom: 98px;
+    margin-left: 18px;
+    float: left;
+}
+
 .title{
     color: darkred;
     font-size: 45px;
