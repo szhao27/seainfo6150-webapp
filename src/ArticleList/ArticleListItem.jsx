@@ -6,6 +6,7 @@ import formatcss from "./ArticleListItem.module.css"
 const ArticleListItem = ({content}) => {
     return (
         <html>
+        <ul class = {formatcss.container}>
         <div>
             <div className={formatcss.image}>
                 <ArticleImage url={content.image} title={content.title}></ArticleImage>
@@ -16,6 +17,7 @@ const ArticleListItem = ({content}) => {
             <SlugButton slug={content.slug} buttonText={content.author}></SlugButton>
             <div className={formatcss.clear}></div>
         </div>
+        </ul>
         </html>
     );
 };

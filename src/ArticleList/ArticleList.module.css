@@ -16,6 +16,9 @@
     /*outline-style: dashed;*/
     /*outline-color: dimgray;*/
     /*outline-width: 3px;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
 }
 
 .lighterpart{
@@ -33,5 +36,7 @@
 
     background-color:whitesmoke;
     background-image: linear-gradient(to right, rgb(199, 109, 109) 1%, white 20%);
+    width: 400px;
+    height: 850px;
 
 }
