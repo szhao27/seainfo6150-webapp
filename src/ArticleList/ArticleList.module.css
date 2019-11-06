@@ -40,3 +40,21 @@
     height: 850px;
 
 }
+
+@media only screen and (max-width: 320px) {
+    [class*="darkerpart"] {
+        background-color: bisque;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="darkerpart"] {
+        background-color: steelblue;
+    }
+
+}
+@media only screen and (min-width: 1024px) {
+    [class*="darkerpart"] {
+        background-color: lemonchiffon;
+    }
+}

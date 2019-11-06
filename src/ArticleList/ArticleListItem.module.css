@@ -37,3 +37,67 @@
     flex-flow: column;
     justify-content: flex-start;
 }
+
+@media only screen and (max-width: 320px) {
+    [class*="image"] {
+        width: 70%;
+    }
+    [class*="title"] {
+        font-size: 30px;
+        width: 70%;
+    }
+    [class*="shorttext"] {
+        font-size: 12px;
+        width: 80%;
+    }
+    [class*="pubDate"] {
+        width: 30%;
+        font-size: 10px;
+    }
+    [class*="container"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="image"] {
+        width: 70%;
+    }
+    [class*="title"] {
+        font-size: 30px;
+        width: 70%;
+    }
+    [class*="shorttext"] {
+        font-size: 18px;
+        width: 80%;
+    }
+    [class*="pubDate"] {
+        width: 50%;
+        font-size: 15px;
+    }
+    [class*="container"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    [class*="image"] {
+        width: 70%;
+    }
+    [class*="title"] {
+        font-size: 40px;
+        width: 70%;
+    }
+    [class*="shorttext"] {
+        font-size: 23px;
+        width: 80%;
+    }
+    [class*="pubDate"] {
+        width: 50%;
+        font-size: 19px;
+    }
+    [class*="container"] {
+        width: 100%;
+    }
+}
